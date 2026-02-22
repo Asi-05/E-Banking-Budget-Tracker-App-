@@ -1,4 +1,4 @@
-# 💰 E-Banking-Budget-Tracker-App-
+# 💰 E-Banking-Budget-Tracker-Anwendung
 
 ## 🎯 Projektziel 
 
