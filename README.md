@@ -6,6 +6,9 @@ Wir migrieren unseren ursprünglichen CLI Budget Tracker zu einer vollwertigen, 
 
 ## 📝 Application Requirements
 ### Problem
+🚧 Describe the real-world problem your application solves. (Not HOW, but WHAT)
+
+💡 Example: In a small local pizzeria, the staff writes orders and calculates totals by hand. This causes mistakes and inconsistent orders or discounts.
 
 ## 👤 User Stories
 
