@@ -29,18 +29,18 @@ Wir migrieren unseren ursprünglichen CLI Budget Tracker zu einer vollwertigen, 
 ### Software Architecture
 🚧 Insert your UML class diagram(s). Split into multiple diagrams if needed.
 
-** Layers / components:
+### Layers / components:
 
  * UI (NiceGUI pages/components, browser as thin client)
  * Application logic (controllers + domain/services)
  * Persistence (SQLite + ORM entities + repositories/queries)
 
-** Design decisions (examples):
+### Design decisions (examples):
 
  * Organize code using MVC:
- * Model: domain + ORM entities (e.g. models.py)
- * View: NiceGUI UI components/pages
- * Controller: event handlers and coordination logic between UI, services, and       persistence
+   * Model: domain + ORM entities (e.g. models.py)
+   * View: NiceGUI UI components/pages
+   * Controller: event handlers and coordination logic between UI, services, and       persistence
 Separate UI (app/main.py) from domain logic (e.g. pricing.py) and persistence (e.g. models.py, db.py)
 Use and interaction of modules to minimize dependencies, by minimizing cohesion and maximizing coupling
 Keep business rules testable without starting the UI
