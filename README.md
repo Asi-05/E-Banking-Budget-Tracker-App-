@@ -41,16 +41,17 @@ Wir migrieren unseren ursprünglichen CLI Budget Tracker zu einer vollwertigen, 
    * Model: domain + ORM entities (e.g. models.py)
    * View: NiceGUI UI components/pages
    * Controller: event handlers and coordination logic between UI, services, and       persistence
- * Separate UI (app/main.py) from domain logic (e.g. pricing.py) and persistence (e.g. models.py, db.py)
- * Use and interaction of modules to minimize dependencies, by minimizing cohesion and maximizing coupling
+ 
+ * Separate UI (app/main.py) from domain logic (e.g. pricing.py) and persistence     (e.g. models.py, db.py)
+ * Use and interaction of modules to minimize dependencies, by minimizing            cohesion and maximizing coupling
  * Keep business rules testable without starting the UI
 
 ### Design patterns used (examples):
 
-MVC (Model–View–Controller)
-Repository/DAO for database access (e.g. queries.py)
-Strategy for business rules (e.g. discount calculation)
-Adapter for external services (e.g. invoice generation backend)
+ * MVC (Model–View–Controller)
+ * Repository/DAO for database access (e.g. queries.py)
+ * Strategy for business rules (e.g. discount calculation)
+ * Adapter for external services (e.g. invoice generation backend)
 
 
 
