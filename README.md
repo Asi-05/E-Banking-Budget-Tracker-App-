@@ -60,6 +60,39 @@ Wir migrieren unseren ursprünglichen CLI Budget Tracker zu einer vollwertigen, 
 ORM and Entities (example): In the database, order are stored in ... that are mapped an Order entity. The Order ↔ OrderItem relationship ... ensures that an Order has at least one OrderItem and an OrderItem always relates to an Order.
 
 ## ✅ Project Requirements
+🚧 Requirements act as a contract: implement and demonstrate each point below.
+
+Each app must meet the following criteria in order to be accepted (see also the official project guidelines PDF on Moodle):
+
+1. Using NiceGUI for building an interactive web app
+2. Data validation in the app
+3. Using an ORM for database management
+
+### 1. Browser-based App (NiceGUI)
+🚧 In this section, document how your project fulfills each criterion.
+
+Architecture note (per SS26 guidelines): the browser is a thin client; UI state + business logic live on the server-side NiceGUI app.
+
+### 2. Data Validation
+The application validates all user input to ensure data integrity and a smooth user experience. These checks prevent crashes and guide the user to provide correct input, matching the validation requirements described in the project guidelines.
+
+### 3. Database Management
+All relevant data is managed via an ORM (e.g. SQLModel or SQLAlchemy). For the pizza example this includes users, pizzas, and orders.
+
+## ⚙️ Implementation
+### Technology
+ * Python 3.x
+ * Environment: GitHub Codespaces
+ * External libraries (e.g. NiceGUI, SQLAlchemy, Pydantic)
+
+### 📂 Repository Structure
+
+### How to run
+
+
+
+
+
 
 
 
