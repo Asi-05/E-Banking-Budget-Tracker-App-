@@ -17,6 +17,8 @@ Wir migrieren unseren ursprünglichen CLI Budget Tracker zu einer vollwertigen, 
 
 ### 👤 User Stories
 
+--
+
 ### Use cases
 🚧 Name actors and briefly describe each use case. Ideally, a UML use case diagram specifies use cases and relationships.
 
